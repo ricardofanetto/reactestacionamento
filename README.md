@@ -1,7 +1,7 @@
 # reactestacionamento
 Mini curso do youtube
 
-# tecnologias
+# Tecnologias abordadas
   - React
   - Redux
   - Hooks
