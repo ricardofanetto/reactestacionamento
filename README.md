@@ -5,6 +5,10 @@ Mini curso do youtube
   - React
   - React-native
   - Redux
+  - Thunk
   - Hooks
   - NodeJS
   - MongoDB
+  
+  #Pattern utilizado
+  - Ducks
