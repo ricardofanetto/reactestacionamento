@@ -1,10 +1,13 @@
 import React from 'react';
 import './style.css';
 
-export const Card = (props) => {
+function Card({ children, className }) {
+  const classNames = `card-container ${className || ''}`;
   return (
-    <div className="card-container">
-      {props.children}
+    <div className={classNames}>
+      {children}
     </div>
-  );
+  )
 }
+
+export default Card;
