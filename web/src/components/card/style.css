@@ -1,0 +1,13 @@
+.card-container {
+  background: white;
+  padding: 16px;
+  box-shadow: 6px 6px 10px rgba(156,156,156,0.3);
+}
+
+.card-container h2 {
+  color: #23AAA0;
+  margin-block-start: 0px;
+  margin-block-end: -4px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}

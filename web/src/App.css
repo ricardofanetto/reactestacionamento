@@ -6,7 +6,31 @@ body {
 }
 
 .main-container {
+  padding: 20px;
+  display: grid;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+.vehicle-container {
+  margin-bottom: 16px;
+}
+.identifier-container {
+  text-align: right;
+  padding-bottom: 16px;
+}
+.times-container {
   display: flex;
-  height: 100vh;
-  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.card-container.card-add {
+  background: #F5F0F0;
+  border: 1px dotted #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+  color: #707070;
 }
